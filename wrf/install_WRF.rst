@@ -50,7 +50,7 @@ Install step 4.1: Download WRF::
 
 Install step 4.2: Set the WRF configurations::
   
-  cd WRFV413_AO
+  cd WRFV451_AO
   ./configure
 
 There are 79 WRF configurations.
@@ -138,7 +138,7 @@ Compile WRF
 Install step 4.4: Copy other files and install WRF (current working directory:
 $SKRIPS_DIR/WRFV413_AO)::
 
-   WRF_OPTION_DIR0=$SKRIPS_DIR/scripts/wrf/wrfAO451_shared/
+   WRF_UPDATE_DIR0=$SKRIPS_DIR/scripts/wrf/wrfAO451_shared/
 
    ln -sf ${WRF_UPDATE_DIR0}/Makefile.wrf Makefile
    ln -sf ${WRF_UPDATE_DIR0}/Registry.EM Registry/
